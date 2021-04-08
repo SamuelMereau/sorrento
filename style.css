@@ -352,6 +352,9 @@ footer {
   #map {
     padding-left: 39px;
   }
+  footer {
+    display: block;
+  }
   .footer-info {
     margin-top: 20px;
     padding-top: 5px;
