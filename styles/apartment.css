@@ -1,0 +1,31 @@
+main {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+
+main img {
+  margin-left: 100px;
+  width: 40%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.main-content {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+@media screen and (max-width: 1267px) {
+  main img {
+    margin-left: 0;
+    margin-top: 20px;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 682px) {
+  main img {
+    width: 90%;
+  }
+}
