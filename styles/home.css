@@ -14,6 +14,9 @@ main {
 .landing {
   height: auto;
   margin-right: 200px;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 25px 50px;
+  border-radius: 10px;
 }
 
 #landing-img {
@@ -48,6 +51,7 @@ main {
   .landing {
     margin-right: auto;
     padding-bottom: 35px;
+	margin-bottom: 50px;
   }
 }
 
@@ -63,13 +67,11 @@ main {
 @media print {
   #landing-img {
     justify-content: initial;
-    align-content: initial;
-    width: auto;
-    display: inline-flex;
   }
   #landing-img img {
-    width: auto;
-    display: inline-table;
-    margin-top: 100px;
+    width: 75%;
+  }
+  main p {
+	 margin-bottom: 220px;
   }
 }

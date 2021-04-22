@@ -30,3 +30,9 @@ main img {
     width: 90%;
   }
 }
+
+@media print {
+	main p {
+		margin-bottom: 50px;
+	}
+}

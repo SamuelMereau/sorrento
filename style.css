@@ -11,8 +11,12 @@ body {
   font-family: Helvetica, Calibri, sans-serif;
 }
 
-#active {
-  color: red;
+#active-sitemap {
+	color: red;
+}
+
+.active {
+  background-color: lightgrey !important;
 }
 
 /* Main Content */
@@ -118,7 +122,7 @@ nav {
 }
 
 .navlinks ul li:hover > a {
-  background-color: #555555;
+  background-color: #555555 !important;
   color: white;
 }
 
@@ -445,30 +449,30 @@ footer {
   nav {
     box-shadow: none;
     padding: 0;
+	width: 100%;
+	margin-left: 25%;
   }
   #logo {
     width: 60%;
-    margin-left: auto;
-    margin-right: auto;
   }
   main {
     padding: 0 !important;
     margin: 0 !important;
     background-image: none !important;
+	display: block !important;
   }
   main div {
     height: 100%;
-    padding: 0 !important;
-    margin: 0 !important;
   }
   main img {
-    display: block;
-    margin: 0 !important;
+    display: block !important;
     max-width: 100%;
     height: auto;
+	box-shadow: none !important;
   }
   main p {
     height: 120px;
+	font-size: 18px;
   }
 
   footer {

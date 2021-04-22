@@ -29,3 +29,9 @@ main img {
     width: 90%;
   }
 }
+
+@media print {
+	main img {
+		margin-top: 275px;
+	}
+}
